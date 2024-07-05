@@ -1,0 +1,16 @@
+class ArrayStat
+{
+public static void main(String args[]){
+	int marks[]= {67,45,35,4,56,78,9};
+	int maxMarks,minMarks,avgMarks,sum;
+	maxMarks=marks[0];
+	for(int i=1; i<marks.length;i++)
+		{
+			if(marks[i] >maxMarks)maxMarks=marks[i];
+
+			
+		}	
+	
+		System.out.print("Maximum Marks " + maxMarks);
+}
+}
